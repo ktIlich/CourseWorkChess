@@ -1,0 +1,16 @@
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\wcf_chess.dll.config
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\wcf_chess.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\wcf_chess.pdb
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\ChessLib.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\EntityFramework.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\EntityFramework.SqlServer.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\ChessLib.pdb
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\EntityFramework.xml
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\EntityFramework.SqlServer.xml
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\ru\EntityFramework.resources.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\obj\Release\wcf_chess.csprojAssemblyReference.cache
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\obj\Release\wcf_chess.csproj.CoreCompileInputs.cache
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\obj\Release\wcf_chess.csproj.CopyComplete
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\obj\Release\wcf_chess.dll
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\obj\Release\wcf_chess.pdb
+D:\__Labs_2_sem\Proga\ChessWpf2\wcf_chess\bin\Release\ru\EntityFramework.SqlServer.resources.dll

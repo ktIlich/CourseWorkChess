@@ -1,0 +1,35 @@
+﻿<UserControl x:Class="ChessWPF.ClientChoise"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:ChessWPF"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+  <Grid Background='#FFEEEEEE'>
+    <StackPanel VerticalAlignment='Center' HorizontalAlignment='Center' x:Name='container' >
+      <Label x:Name='title' Content='Создать игру или подключиться?' HorizontalAlignment='Center' VerticalAlignment='Center' FontFamily='Arial' FontSize='24' Margin='5,10'/>
+      <Label Content='Всего онлайн : 10 / созданно лобби : 3 / игроков в очереди : 3' HorizontalAlignment='Center' VerticalAlignment='Center' FontFamily='Arial' FontSize='20' Margin='5,10' x:Name='online_display' />
+      <StackPanel Orientation='Horizontal' HorizontalAlignment='Center' x:Name='row_btn' Visibility='Visible'>
+        <Button Content='Создать лобби' FontSize='24' FontFamily='Arial' Padding='25,10' Height='50' Margin='10,10,30,10' x:Name='btn_create' BorderThickness='0' Background='#FFEEEEEE' Width='285'/>
+        <Button Content='Подключиться к игре' FontSize='24' FontFamily='Arial' Padding='25,10' Height='50' Margin='30,10,10,10' x:Name='btn_join' BorderThickness='0' Background='#FFEEEEEE' Width='285'/>
+      </StackPanel>
+      <StackPanel x:Name='row_color' Orientation='Vertical' HorizontalAlignment='Center' Margin='7' Visibility='Collapsed'>
+        <StackPanel Orientation='Horizontal' HorizontalAlignment='Center'>
+          <RadioButton Style="{StaticResource MaterialDesignTabRadioButton}" Margin="4" IsChecked="True" Content="White" Background='White'  Foreground='Black' FontSize='24' Height='50' Width='120' x:Name='btn_white'/>
+          <RadioButton Style="{StaticResource MaterialDesignTabRadioButton}" Margin="4" IsChecked="False" Content="Black" Background='Black'  Foreground='White' FontSize='24' Height='50' Width='120' x:Name='btn_black'/>
+        </StackPanel>
+        <StackPanel Orientation='Horizontal'>
+          <Button Content='Назад' FontSize='24' FontFamily='Arial' Padding='25,10' Height='50' Width='145' x:Name='btn_prev' BorderThickness='0' Background='#FFEEEEEE' Margin='20'/>
+          <Button Content='Принять' FontSize='24' FontFamily='Arial' Padding='25,10' Height='50' Width='145' x:Name='btn_commit' BorderThickness='0' Background='#FFEEEEEE' Margin='20'/>
+        </StackPanel>
+      </StackPanel>
+    
+    </StackPanel>
+
+    
+    <Button x:Name='btn_disconnect' Content='Отключиться' FontSize='24' FontFamily='Arial' Padding='25,10' Margin='10' Height='50' HorizontalAlignment='Right' VerticalAlignment='Bottom'  BorderThickness='0' Background='Red' Foreground='White' />
+  </Grid>
+</UserControl>
